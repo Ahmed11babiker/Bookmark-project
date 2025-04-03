@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  min-height: 100vh !important;
+    background-color: #f8ecde !important;
+}
+
+section h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+  }
+
+
+  h3{
+    font-family: "Righteous", cursive;
+  }
+h3{
+    
+    background: linear-gradient(86deg, rgba(63,165,91,1) 48%, rgba(180,172,74,1) 72%, rgba(180,172,74,1) 78%) !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+
+hr
+{
+    text-decoration: dotted !important;
+    font-size: 90px !important;
+}
+
+
+
+#submitBtn {
+   
+
+    background-color: #d1512d !important;
+    color: #fff !important;
+
+}
+
+h1::before{
+    content: '';
+    position: absolute !important;
+    height: 25%;
+    width:100%;
+    left: 0;
+    bottom: 10%;
+    background-color: #fec260;
+    transition: all 1s;
+    z-index: -1;
+}
+
+
+.upcover:hover::before{
+    height: 50%;
+    
+    
+    
+}
+
+
+.btn-delete{
+    background-color: #eb1d36 !important;
+}
+
+.btn-visit{
+    background-color: #9eb23b !important;
+}
